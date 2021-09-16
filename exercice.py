@@ -3,12 +3,8 @@
 
 
 def is_even_len(string: str) -> bool:
-    nb_Caractères = 0
-
-    for i in string :
-        nb_Caractères += 1
-
-    return (nb_Caractères % 2 == 0)
+    longueur = len(string)
+    return longueur % 2 == 0
 
 
 def remove_third_char(string: str) -> str:
